@@ -50,7 +50,7 @@ const getSearch = e => {
 
   return(
     <div className="App">
-      <h1>Hello React</h1>
+      <h1>Hello React.. This is updated APP</h1>
       <form onSubmit={getSearch} className="search-form">
         <input  className="search-bar" type="text" value={searchvalue}  onChange={searchConent}/>
         <button className="search-button" type="submit">
